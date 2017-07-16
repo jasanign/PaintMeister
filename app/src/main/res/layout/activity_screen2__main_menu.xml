@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/activity_defaults"
+    android:id="@+id/activity_screen2__main_menu"
+    android:orientation="vertical"
+    android:weightSum="8"
+    tools:context="gj.paintmeister.Screen2_MainMenu">
+
+    <TextView
+        style="@style/txt_view"
+        android:layout_weight="1"
+        android:text="@string/app_name"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAllCaps="true"/>
+    <TextView
+        style="@style/txt_view"
+        android:layout_weight="1"
+        android:text="@string/main_menu"
+        android:gravity="center" />
+    <TextView
+        style="@style/txt_view"
+        android:layout_weight="0.5"/>
+    <Button
+        style="@style/button_style1"
+        android:text="@string/scr2_btn1"
+        android:id="@+id/scr2_btn1"
+        android:layout_weight="1" />
+    <TextView
+        style="@style/txt_view"
+        android:layout_weight="0.25"/>
+    <Button
+        style="@style/button_style1"
+        android:text="@string/scr2_btn2"
+        android:id="@+id/scr2_btn2"
+        android:layout_weight="1" />
+
+</LinearLayout>

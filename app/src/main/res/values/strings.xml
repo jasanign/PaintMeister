@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Paint Meister</string>
+
+    <!-- ........... Screen TWO Main Menu ........... -->
+    <string name="main_menu">Main Menu</string>
+    <string name="scr2_btn1">Start Painting</string>
+    <string name="scr2_btn2">Saved Images</string>
+
+    <!-- ........... Screen FOUR Color List ........... -->
+    <string name="scr4_title">Choose Brush Color</string>
+
+    <!-- ........... Action Bar ........... -->
+    <string name="action_opt1">Choose Color</string>
+    <string name="action_opt2">Saved Images</string>
+    <string name="action_opt3">Save</string>
+    <string name="action_opt4">Clear</string>
+
+    <!-- ........... Screen Five Saved Files ........... -->
+    <string name="no_picture">No Saved Pictures found</string>
+
+    <!-- ........... Save File Popup Box ........... -->
+    <string name="popup_description">Please enter file name : </string>
+    <string name="popup_hint">file name</string>
+
+    <!-- ........... List Item a & b ........... -->
+    <string name="item_color">color</string>
+    <string name="item_hex">Hex Value</string>
+
+
+</resources>

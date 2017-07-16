@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/activity_defaults"
+    android:id="@+id/activity_screen4__color_list"
+    android:weightSum="10"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:paddingTop="0dp"
+    tools:context="gj.paintmeister.Screen4_ColorList">
+
+    <TextView
+        style="@style/txt_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/scr4_title"
+        android:textColor="@color/gold"
+        android:textSize="@dimen/title_text_size"
+        android:gravity="center"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8.5"
+        android:id="@+id/mylist" />
+
+</LinearLayout>
